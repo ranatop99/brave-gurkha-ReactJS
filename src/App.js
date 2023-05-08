@@ -1,14 +1,15 @@
-import HeroPage from './components/HeroPage';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
-import './index.css';
-import React from 'react';
+import "./index.css";
+import React from "react";
+import AboutUs from "./components/about us/AboutUs";
+import Header from "./components/header/Header";
+import Services from "./components/services/Services";
+
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <HeroPage />
-      <Footer />
+      <Header />
+      <AboutUs />
+      <Services />
     </div>
   );
 }

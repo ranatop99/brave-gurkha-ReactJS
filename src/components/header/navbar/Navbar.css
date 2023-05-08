@@ -1,0 +1,21 @@
+.navBar_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+}
+.navBar_section .logo_section {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+.nav_menus .nav_menu_list {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+.nav_menus .nav_menu_list li a {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}

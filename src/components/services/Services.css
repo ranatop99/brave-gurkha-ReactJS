@@ -1,0 +1,51 @@
+.service_section {
+  padding: 1.2rem;
+}
+.main_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.logo_title {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+.motto_line {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.8rem;
+}
+.service_container {
+  width: 400px;
+}
+.img_section {
+  width: 100%;
+}
+.img_soldier {
+  background-color: var(--dark-green);
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+.description_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0.8rem;
+  width: 100%;
+  height: 60vh;
+  background-color: var(--secondary-color);
+}
+.army_origin {
+  font-size: 1.5rem;
+}
+.history_description {
+  color: var(--white-color);
+  font-size: 1rem;
+}
+.button {
+  padding: 1rem 3rem;
+  background-color: var(--dark-green);
+  color: var(--white-color);
+}

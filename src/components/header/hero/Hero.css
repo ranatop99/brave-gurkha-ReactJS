@@ -1,0 +1,53 @@
+.hero_section {
+  background-color: var(--lightgreen-color);
+  max-height: 90vh;
+  width: 100%;
+  padding: 0rem 5rem;
+}
+
+.hero_container {
+  display: flex;
+  justify-content: space-between;
+  height: 60vh;
+  position: relative;
+}
+
+.hero_left_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 0.8rem;
+  /* background-color: blueviolet; */
+}
+.hero_title {
+  font-size: 3rem;
+  color: var(--dark-green);
+}
+.hero_motto {
+  font-size: 1.2rem;
+}
+.navigation_button {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.navigation_button .nav_btn1 {
+  padding: 1.5rem 4rem;
+  background-color: var(--green-color);
+  border-style: none;
+  border-radius: 10px;
+}
+.navigation_button .nav_btn2 {
+  padding: 1.5rem 4rem;
+  border-style: 2px solid black;
+}
+
+.hero_right_section {
+  /* background-color: rgb(222, 118, 14); */
+  position: relative;
+}
+.hero_container .hero_right_section .hero_img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
