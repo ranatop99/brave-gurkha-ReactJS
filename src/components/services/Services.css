@@ -39,6 +39,7 @@
 }
 .army_origin {
   font-size: 1.5rem;
+  color: var(--dark-green);
 }
 .history_description {
   color: var(--white-color);

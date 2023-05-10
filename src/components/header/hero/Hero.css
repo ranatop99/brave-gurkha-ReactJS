@@ -32,14 +32,14 @@
   gap: 2rem;
 }
 .navigation_button .nav_btn1 {
-  padding: 1.5rem 4rem;
+  padding: 1.4rem 3.5rem;
   background-color: var(--green-color);
   border-style: none;
   border-radius: 10px;
 }
 .navigation_button .nav_btn2 {
-  padding: 1.5rem 4rem;
-  border-style: 2px solid black;
+  padding: 1.4rem 3.5rem;
+  border-style: 1px solid black;
 }
 
 .hero_right_section {

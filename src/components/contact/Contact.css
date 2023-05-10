@@ -1,0 +1,31 @@
+.contact_section {
+  background-color: var(--background-color);
+  height: 70vh;
+  padding: 2rem 5rem;
+}
+.contact_container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+.paragraph_container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.paragraph {
+  color: var(--white-color);
+}
+.title {
+  color: var(--white-color);
+}
+
+.links_list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.heading {
+  color: var(--secondary-color);
+}

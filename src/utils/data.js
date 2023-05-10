@@ -56,6 +56,13 @@ export const data = {
       btnLink: "Enroll Now",
     },
     {
+      title: "French Legion Army",
+      history:
+        "The French Legion was formally established in 1951 and is responsible for ensuring public safety, preventing crime, and maintaining social order. It has undergone significant reforms over the years and is a modern and professional organization that works closely with international law enforcement agencies to combat transnational crimes. The police force is committed to upholding the rule of law and protecting the rights of citizens, and plays a crucial role in maintaining peace and security in the country.",
+      imageUrl: SingaporePolice,
+      btnLink: "Enroll Now",
+    },
+    {
       title: "Nepali Police",
       history:
         "The Nepal Police was formally established in 1951 and is responsible for ensuring public safety, preventing crime, and maintaining social order. It has undergone significant reforms over the years and is a modern and professional organization that works closely with international law enforcement agencies to combat transnational crimes. The police force is committed to upholding the rule of law and protecting the rights of citizens, and plays a crucial role in maintaining peace and security in the country.",
@@ -63,10 +70,11 @@ export const data = {
       btnLink: "Enroll Now",
     },
   ],
+
   /***Testimonials Section */
   testimonials: [
     {
-      imageUrl: Testmonials1,
+      imageLink: Testmonials1,
       statement: "One of the best training center in town",
       name: "Ram Bahadur Thapa",
       position: "trainee",
@@ -92,7 +100,7 @@ export const data = {
       "https://drive.google.com/file/d/18GuvtxOONZ5snmx6uM_WUQJ2gY8-FySV/view?usp=share_link",
   },
 
-  Gallery: [
+  gallery: [
     {
       imageId: 1,
       imageTitle: "British",
@@ -117,6 +125,8 @@ export const data = {
 
   //**Contact Section */
   email: "bravegurkha@gmail.comm",
-  phone: "9934980945",
+  phone: "9734980945, +977-081765988",
   address: "Begnas Lake, Pokhara, Nepal",
+  paragraph:
+    "Brave Gurkha Pvt. Ltd. is a leading Pre-Gurkha Army Training Academy. Founded in 2018 A.D, we have helped hundreds of candidates achieve success through Discipline, Development and Integrity. Gurkha Action Pvt. Ltd. is a leading Pre-Gurkha Army Training Academy. Founded in 2003 A.D., we have helped hundreds of candidates achieve success through Discipline, Development and Integrity",
 };
